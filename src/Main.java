@@ -6,7 +6,7 @@ void main() {
 
     int[] a = new int[5];
     int[] b = new int[5];
-    int[] resultado = new int[5];
+    int[] resultat = new int[5];
 
     for (int i = 0; i < 5; i++) {
         System.out.print("Introdueix un número per a: ");
@@ -19,7 +19,7 @@ void main() {
     }
 
     for (int i = 0; i < 5; i++) {
-        resultado[i] = a[i] + b[i];
+        resultat[i] = a[i] + b[i];
     }
 
     System.out.println("Array a:");
@@ -37,6 +37,6 @@ void main() {
     System.out.println("Array resultat:");
 
     for (int i = 0; i < 5; i++) {
-        System.out.println(resultado[i]);
+        System.out.println(resultat[i]);
     }
 }
