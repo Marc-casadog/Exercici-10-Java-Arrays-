@@ -1,4 +1,5 @@
 INICI
+
 DEFINIR dades COM ARRAY DE 5 ENTERS
 PER i ← 0 FINS 5 FER 
   escriure ("Introdueix un número:") 
